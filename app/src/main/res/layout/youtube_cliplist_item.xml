@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!--<com.google.android.youtube.player.YouTubeThumbnailView-->
+        <!--android:focusableInTouchMode="false"-->
+        <!--android:focusable="false"-->
+        <!--android:id="@+id/thumbnailView"-->
+        <!--android:layout_margin="0dp"-->
+        <!--android:padding="0dp"-->
+        <!--android:layout_width="100dp"-->
+    <!--android:layout_height="70dp" />-->
+
+    <ImageView
+        android:id="@+id/youtubeThumnailImageView"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:layout_margin="0dp"
+        android:layout_width="100dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:id="@+id/thumbnailListText"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</LinearLayout>

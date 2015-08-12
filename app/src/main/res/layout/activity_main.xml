@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/fragmentLayout"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingBottom="5dp" />
+
+        <fragment
+            android:name="com.union.ip.sum.ronniej.showmoviesforchildren.AdmobFragment"
+            android:id="@+id/adFragment"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </fragment>
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/adLayout"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp" />-->
+
+    </LinearLayout>
+
+    <!--<fragment-->
+    <!--android:name="com.union.ip.sum.ronniej.showmoviesforchildren.YouTubeClipListFragment"-->
+    <!--android:id="@+id/mainFragment"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp">-->
+
+    <!--</fragment>-->
+
+    <!--<fragment-->
+    <!--android:name="com.union.ip.sum.ronniej.showmoviesforchildren.AdmobFragment"-->
+    <!--android:id="@+id/adFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp">-->
+
+    <!--</fragment>-->
+
+</LinearLayout>
